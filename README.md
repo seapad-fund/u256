@@ -19,11 +19,11 @@ The audit still missed, so use at your own risk.
 
 ### Build
 
-    aptos move build
+    sui move build
 
 ### Test
 
-    aptos move test
+    sui move test
 
 
 ## Add as dependency
@@ -32,7 +32,7 @@ Add to `Move.toml`:
 
 ```toml
 [dependencies.U256]
-git = "https://github.com/pontem-network/U256.git"
+git = "https://github.com/seapad-fund/u256.git"
 rev = "v0.3.9"
 ```
 
